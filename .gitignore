@@ -1,24 +1,28 @@
-# Dependencies
+# Node modules
 node_modules/
 
-# Bi mat / bien moi truong
+# Environment files
 .env
 .env.*
 !.env.example
 
-# Build output
-dist/
-build/
-
-# Log
+# Logs
+logs/
 *.log
 npm-debug.log*
 
-# He dieu hanh / editor
-.DS_Store
-Thumbs.db
+# Build
+dist/
+build/
+
+# IDE
 .vscode/
 .idea/
 
-# Tai lieu loi giai cua giang vien (khong dua len repo)
-docs/loi-giai.*
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
